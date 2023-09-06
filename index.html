@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>My Project</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+            <div class="logo">Kevin's Portfolio</div>
+            <ul class="nav-links">
+                <li>
+                    <a href="https://www.linkedin.com/in/kevin-robinson-5520671b5/" class="nav-icon-size"><i class="bx bxl-linkedin-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/kevin.robinson.9638/" class="nav-icon-size" ><i class="bx bxl-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/krobinson21359" class="nav-icon-size"><i class="bx bxl-github"></i ></a>
+                </li>
+                <li>
+                    <a href="mailto:krobinson21359@outlook.com" class="nav-icon-size"><i class="bx bxs-envelope"></i></a>
+                </li>
+            </ul>
+            <div class="burger-menu nav-icon-size"><i class='bx bx-menu-alt-right' ></i></div>
+        </nav>
+    </header>
+    <main class="flex-main">
+
+        <div class="hero left">
+            <img src="assets/kevin.jpg" class="main-image" alt="Placeholder Image">
+        </div>
+
+        <div class="hero right">
+            <h1>Hi my name is Kevin,</h1>
+            <div class="typewriter"><h2>I'm a web developer</h2></div>
+            <p class="hero-paragraph">My name is Kevin and I'm a passionate web designer and developer, who loves to bring creative designs I imagine to life. My journey started back in high school when I used to create images and layouts on Proboards sites. In 2010 I decided to attend college for it and completed an AS degree in Multimedia Technologies, where I learned a lot of web and graphic design.</p>
+            <br/>
+            <p class="hero-paragraph">I lost my way a little bit and didn't really have a focus, but life has a funny way of putting you back on track and reigniting passions. After losing my job to Covid, I decided to finally pursue a career in web design and development. My certificate in front-end development and my previous education prepared me for this new path im on!</p>
+            <br/>
+            <a href="assets/Kevin Robinson.pdf" download><button>Download My Resume</button></a></article>
+        </div> 
+    </main>
+    <section class="flex-section">
+      <div class="hero">
+        <h1 class="project-center-text">Projects</h1>
+        <button class="button-section" onclick="loadRepo()">GitHub Projects</button>
+        <br/><br/>
+        <p id="gitBio"></p>
+      </div>
+    </section>
+    <footer class="flex-footer">
+      <i
+        class="bx bxs-copyright"
+        style="color: #c3083f; font-size: 2rem; padding: 5px"
+      ></i
+      >of Kevin Robinson 2023
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+        
