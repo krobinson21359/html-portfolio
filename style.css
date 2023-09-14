@@ -158,7 +158,6 @@ main {
 
 .leftSide {
     padding: 10px;
-    
 }
 
 .main-image {
@@ -216,11 +215,6 @@ footer {
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
-    }
-
-    .main-image {
-        width: 100%;
-        height: auto;
     }
 
     .hero h1 {
