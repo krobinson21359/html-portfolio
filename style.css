@@ -159,7 +159,7 @@ main {
 }
 
 .sidebarAbout {
-  background-image: url(/assets/sidePicAbout.png);
+  background-image: url(assets/sidePicAbout.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
