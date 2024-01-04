@@ -111,14 +111,14 @@ p {
   /* gap: 0.2rem; */
 }
 
-.contentContainer li {
+.content-container li {
   list-style: none;
   color: red;
   display: inline-block;
   padding-top: 10px;
 }
 
-.contentContainer {
+.content-container {
   width: 75%
 }
 
@@ -149,7 +149,7 @@ main {
 }
 
 .sidebar {
-  background-image: url(assets/sidePic.png);
+  background-image: url(/assets/sidePic.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,8 +158,8 @@ main {
   background-color: #000;
 }
 
-.sidebarAbout {
-  background-image: url(assets/sidePicAbout.png);
+.sidebar-about {
+  background-image: url(/assets/sidePicAbout.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ main {
   background-color: #000;
 }
 
-.sidebar_portfolio {
+.sidebar-portfolio {
   grid-area: sidebar;
   width: auto;
   background-color: #000;
@@ -219,19 +219,19 @@ button {
 
 /* Portfolio Section */
 
-.portfolio_head {
+.portfolio-head {
   border-left: 5px solid black;
   padding-left: 10px;
 }
 
-.portfolio_example {
+.portfolio-example {
   height: 450px;
   width: auto;
   overflow: hidden;
   padding: 10px;
  }
 
- .portfolio_example2 {
+ .portfolio-example2 {
   height: 450px;
   width: auto;
   overflow: hidden;
@@ -246,13 +246,12 @@ button {
     grid-template-rows: 0.2fr 1fr 1fr;
     grid-template-areas:
     "nav"
-    "main"
+    "sidebar"
     "main";
-    overflow: hidden;
   }
 
-  .sidebar_portfolio {
-    display: none;
+  .sidebar-portfolio {
+    padding: 15px;
   }
 
   nav {
@@ -316,6 +315,17 @@ button {
     margin-left: 0px;
   }
 
+  .content-container {
+    padding: 15px;
+  }
+
+  .portfolio-example2, .hidden-div {
+    display: none;
+  }
+
+  .drop-in, .overflow-hidden {
+    animation: none !important;  
+  }
 }
 
 /* Animations */
