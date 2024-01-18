@@ -48,18 +48,53 @@
             knowledge.
           </p>
           
-          <h2>My Skill Set</h2>
+          <h2>My Skills</h2>
 
-          <p>
-With an A.S. in Multimedia Technologies and a Front-End Development certificate, I specialize in dynamic web and UX design. Proficient in Figma, graphic design tools, HTML, and CSS, my focus is on creating visually compelling and user-centric interfaces. While my JavaScript skills provide a solid foundation, my true strength lies in delivering seamless and engaging user experiences. Explore my resume for a detailed overview of my skills and achievements. Eager to bring my passion for innovative web and UX design to your projects.
+          <p>Website Design</p>
+          <span class="portfolio-head">Advanced Knowledge</span>
+
+          <p>UI/UX Design</p>
+          <span class="portfolio-head">Intermediate Knowledge</span>
+
+          <p>HTML/CSS</p>
+          <span class="portfolio-head">Advanced Knowledge</span>
+
+          <p>JavaScript</p>
+          <span class="portfolio-head">Basic Knowledge</span>
+
+          <p>Graphic Design/Video Editing</p>
+          <span class="portfolio-head">Intermediate Knowledge</span>
           </p>
         </div>
       </main>
       <div class="sidebar-portfolio">
-        <div><h2>Beagle Haven</h2><img src="assets/Desktop - 1.png" alt="Beagle Haven website design" class="portfolio-example" /><br><a href="assets/Desktop - 1.png"><button class="navi-button">Full View</button></a></div>
-        <div class="hidden-div"><h2>Beagle Match</h2><img src="assets/Beagle_Match.png" alt="Beagle Match website design" class="portfolio-example2" /><br><a href="assets/Beagle_Match.png"><button class="navi-button">Full View</button></a></div> </div>
+        <!-- <div><h2>Beagle Haven</h2><img src="/assets/Desktop - 1.png" alt="Beagle Haven website design" class="portfolio-example" /><br><a href="/assets/Desktop - 1.png"><button class="navi-button">Full View</button></a></div>
+        <div class="hidden-div"><h2>Beagle Match</h2><img src="/assets/Beagle_Match.png" alt="Beagle Match website design" class="portfolio-example2" /><br><a href="/assets/Beagle_Match.png"><button class="navi-button">Full View</button></a></div> </div> -->
+        
+      
+        <div id="slider-container">
+          <div id="slider">
+              <div class="slide"><img class="custom-img" src="assets/Desktop - 1.png" alt="Beagle Haven">
+                <a href="assets/Desktop - 1.png"><button class="navi-button">Full View</button></a>
+              </div>
+              <div class="slide"><img class="custom-img" src="/assets/Beagle_Match.png" alt="Beagle Match">
+                <a href="/assets/Beagle_Match.png"><button class="navi-button">Full View</button></a>
+              </div>
+              <div class="slide"><img class="custom-img" src="assets/HomePage.jpg" alt="NRC Home">
+                <a href="assets/HomePage.jpg"><button class="navi-button">Full View</button></a></div>
+              <div class="slide"><img class="custom-img" src="assets/MobileView.jpg" alt="NRC Mobile">
+                <a href="assets/MobileView.jpg"><button class="navi-button">Full View</button></a></div>
+              <!-- Add more slides as needed -->
+          </div>
+          
+          <div id="arrows">
+              <div id="prev" onclick="prevSlide()">◄</div>
+              <div id="next" onclick="nextSlide()">►</div>
+          </div>
       </div>
-    </div>
+      
+      
+      </div>
     <script src="script.js"></script>
   </body>
 </html>
