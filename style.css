@@ -152,9 +152,9 @@ main {
 }
 
 .sidebar {
-  background-image: url(assets/sidePicNew.png);
+  background-image: url(assets/sidePicNewer.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   grid-area: sidebar;
   height: 100%;
