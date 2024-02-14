@@ -215,9 +215,11 @@ button {
 .ghost-button {
   background-color: #F5F5F5;
   color:  #1D1D1D;
+  font-weight: 600;
   border: 2px #1D1D1D solid;
   margin-left: 10px;
   cursor: pointer;
+  text-align: center;
 }
 
 /* Portfolio Section */
