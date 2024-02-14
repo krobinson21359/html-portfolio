@@ -151,7 +151,7 @@ main {
 }
 
 .sidebar {
-  background-image: url(assets/sidePic.png);
+  background-image: url(assets/sidePic1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -161,7 +161,7 @@ main {
 }
 
 .sidebar-about {
-  background-image: url(assets/sidePicAbout.png);
+  background-image: url(assets/sidePicAbout2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
