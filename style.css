@@ -11,12 +11,13 @@
 body {
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
+  color: #2b2b2b;
 }
 
 h1 {
   font-size: 65px;
   font-weight: 700;
-  color: #000;
+  color: #2b2b2b;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -40,6 +41,7 @@ p {
   letter-spacing: 1.2px;
   line-height: 2.3;
   font-size: 1.2rem;
+  color: #2b2b2b;
 }
 
 /* Navigation Styles */
@@ -56,7 +58,7 @@ p {
 }
 
 .nav-list a {
-  color: #fff;
+  color: #F5F5F5;
   text-decoration: none;
   font-family: 'Source Sans 3', sans-serif;  
   text-transform: uppercase;
@@ -81,7 +83,7 @@ p {
 .primary-icon a {
   font-size: 30px;
   font-weight: 600;
-  color: #000;
+  color: #2b2b2b;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -136,7 +138,7 @@ nav::before {
   bottom: 0;
   left: 50%;
   right: 0;
-  background-color: #000;
+  background-color: #2b2b2b;
   z-index: -1;
 }
 
@@ -155,7 +157,7 @@ main {
   background-repeat: no-repeat;
   grid-area: sidebar;
   height: 100%;
-  background-color: #000;
+  background-color: #2b2b2b;
 }
 
 .sidebar-about {
@@ -166,14 +168,14 @@ main {
   grid-area: sidebar;
   height: 100%;
   width: auto;
-  background-color: #000;
+  background-color: #2b2b2b;
 }
 
 .sidebar-portfolio {
   grid-area: sidebar;
   width: auto;
-  background-color: #000;
-  color: #fff;
+  background-color: #2b2b2b;
+  color: #F5F5F5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -185,13 +187,13 @@ main {
 
 button {
   
-  background-color: #000;
-  color: #fff;
+  background-color: #2b2b2b;
+  color: #F5F5F5;
   border-radius: 25px;
   width: 150px;
   height: 40px;
   font-weight: 600;
-  color: #fff;
+  color: #F5F5F5;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Source Sans 3', sans-serif;  
@@ -203,16 +205,16 @@ button {
 }
 
 .navi-button {
-    background-color: #000;
-    color: #fff;
-    border: 2px #fff solid;
+    background-color: #2b2b2b;
+    color: #F5F5F5;
+    border: 2px #F5F5F5 solid;
     cursor: pointer;
 }
 
 .ghost-button {
   background-color: #F5F5F5;
-  color: #000;
-  border: 2px #000 solid;
+  color:  #2b2b2b;
+  border: 2px #2b2b2b solid;
   margin-left: 10px;
   cursor: pointer;
 }
@@ -220,7 +222,7 @@ button {
 /* Portfolio Section */
 
 .portfolio-head {
-  border-left: 5px solid black;
+  border-left: 5px solid #2b2b2b;
   padding-left: 10px;
 }
 
@@ -295,12 +297,12 @@ button {
   }
 
   nav {
-    background-color: black;
+    background-color: #2b2b2b;
   }
 
   .navbar {
     flex-direction: column;
-    background-color: #000;
+    background-color: #2b2b2b;
     grid-area: nav;
     justify-content: space-around;
   }
@@ -327,12 +329,12 @@ button {
 
   .primary-icon {
     width: 100%;
-    color: #fff;
+    color: #F5F5F5;
     margin-left: 0px;
   }
 
   .primary-icon a {
-    color: #fff;
+    color: #F5F5F5;
   }
 
   .active {
